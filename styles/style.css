@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+background-image: url('../images/toyota86.jpg');
+
+}
+/*styling for Header*/
+header {
+  /*border: 1px solid blue;*/
+  height: 100px;
+  width: 100%;
+  background-image: url('../images/header.jpg');
+  opacity: 0.9;
+}
+
+.icon-1 img {
+  height: 100%;
+  float: left;
+  height: 99%;
+  width: 250px;
+  padding-top: 5px;
+  padding-left: 10px;
+  display: inline;
+  opacity: 0.8;
+}
+
+  .icon-2 img {
+  border: 1px solid green;
+  height: 100px;
+  float: right;
+  display: inline;
+}
+
+.judul h1{
+  margin-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: arial;
+  box-sizing: border-box;
+  height: auto;
+  font-size: 50px;
+  margin-top: 0px;
+}
+/*Styling for nav*/
+}
+nav {
+  /*border: 1px solid red;*/
+  height: 50px;
+  width: 100%;
+  background-color: grey;
+}
+
+.menu {
+  /*border: 1px solid red;*/
+  height: 30px;
+  width: 30%;;
+}
+.menu ul {
+  margin-top: 15px;
+  margin-left: 3%;
+}
+.menu li {
+  color: white;
+  text-transform: uppercase;
+  font-family: arial;
+  text-align: center;
+  display: inline;
+  margin: 20px;
+}
+.menu li a{
+  text-decoration: none;
+}
+/*Styling for Aside*/
+aside {
+  /*border: 1px solid green;*/
+  height: 800px;
+  width: 100%;
+  padding: 2px;
+}
+#content-left {
+  font-family: arial;
+  padding: 5px;
+  text-justify: auto;
+}
+footer {
+  background-color: grey;
+}
+
+#content-left {
+  /*border: 1px solid purple;*/
+  height: 100%;
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  background-color: grey;
+  opacity: 0.9;
+  padding-top: 40px;
+}
+
+#content-right {
+  /*border: 1px solid black;*/
+  height: 100%;
+  width: 45%;
+  float: right;
+  padding: 1px;
+}
+
+#content-right .upper {
+  /*border: 1px solid red;*/
+  height: 100%;
+  margin-bottom: 1px;
+  background-color: grey;
+  width: 100%;
+  opacity: 0.9;
+}
+.upper img{
+  opacity: 0.9;
+  margin: 20px;
+}
+#content-right h1{
+  font-family: Arial;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/*#content-right .lowwer {
+  border: 1px solid blue;
+  height: 360px;
+  width: 100%;
+  background-color: white;
+}*/
+#content-right img{
+  height: 100px;
+  border-radius: 100%;
+  padding-left: 30px;
+}
