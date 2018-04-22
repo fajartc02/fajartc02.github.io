@@ -1,139 +1,140 @@
 * {
-  margin: 0;
-  padding: 0;
+  padding: 0px;
+  margin: 0px;
 }
-
-body {
-background-image: url('../images/toyota86.jpg');
-
-}
-/*styling for Header*/
 header {
-  /*border: 1px solid blue;*/
+  /*border: 1px solid black;*/
   height: 100px;
   width: 100%;
-  background-image: url('../images/header.jpg');
-  opacity: 0.9;
+  background-image: url('../images/toyota86.jpg');
+  background-size: cover;
+  z-index: 1;
+  position: fixed;
+  font-family: arial;
 }
-
-.icon-1 img {
-  height: 100%;
+header div {
+  display: inline;
+}
+.icon {
+  /*border: 1px solid purple;*/
+  height: 100px;
+  width: 20%;
+}
+.icon img {
+  height: 99px;
+  opacity: 0.7;
+  display: inline;
   float: left;
-  height: 99%;
-  width: 250px;
-  padding-top: 5px;
-  padding-left: 10px;
-  display: inline;
-  opacity: 0.8;
 }
-
-  .icon-2 img {
-  border: 1px solid green;
-  height: 100px;
-  float: right;
-  display: inline;
-}
-
-.judul {
-  margin-top: 50px;
+.judul h1 {
   text-align: center;
-  text-transform: uppercase;
-  font-family: arial;
-  box-sizing: border-box;
-  height: auto;
-  font-size: 50px;
-  margin-top: 20px;
-}
-/*Styling for nav*/
-}
-nav {
-  /*border: 1px solid red;*/
-  height: 50px;
-  width: 100%;
-  background-color: grey;
-}
-
-.menu {
-  /*border: 1px solid red;*/
-  height: 30px;
-  width: 30%;;
-}
-.menu ul {
-  margin-top: 15px;
-  margin-left: 3%;
-}
-.menu li {
+  padding-top: 20px;
   color: white;
-  text-transform: uppercase;
-  font-family: arial;
-  text-align: center;
-  display: inline;
-  margin: 20px;
+  font-size: 50px;
 }
-.menu li a{
+
+nav {
+  /*border: 1px solid black;*/
+  height: 50px;
+  padding-left: 5px;
+  background-color: #c0c0c0;
+  background-size: cover;
+  padding-top: 100px;
+  opacity: 0.8;
+  font-family: arial;
+}
+
+.menu a{
+  color: black;
   text-decoration: none;
 }
-/*Styling for Aside*/
-aside {
+.menu a:hover{
+  color: white;
+}
+
+nav ul {
+  padding-top: 15px;
+}
+
+nav li  {
+  display: inline;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+section {
   /*border: 1px solid green;*/
   height: 800px;
   width: 100%;
-  padding: 2px;
+  background-image: url('../images/toyota86.jpg');
+  background-size: cover;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-#content-left {
-  font-family: arial;
-  padding: 5px;
-  text-justify: auto;
-}
-footer {
-  background-color: grey;
-}
-
-#content-left {
-  /*border: 1px solid purple;*/
-  height: 100%;
-  width: 50%;
+ #left-content {
+  /*border: 1px solid blue;*/
+  height: 95%;
+  width: 45%;
   float: left;
-  box-sizing: border-box;
+  margin-left: 30px;
   background-color: grey;
   opacity: 0.9;
-  padding-top: 40px;
+  font-family: arial;
+  padding-top: 20px;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-
-#content-right {
-  /*border: 1px solid black;*/
-  height: 100%;
+ #right-content {
+  /*border: 1px solid red;*/
+  height: 95%;
   width: 45%;
   float: right;
-  padding: 1px;
-}
-
-#content-right .upper {
-  /*border: 1px solid red;*/
-  height: 100%;
-  margin-bottom: 1px;
+  margin-right: 30px;
   background-color: grey;
-  width: 100%;
   opacity: 0.9;
+  padding-top: 20px;
+  font-family: arial;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.upper img{
-  opacity: 0.9;
-  margin: 20px;
-}
-#content-right h1{
-  font-family: Arial;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-/*#content-right .lowwer {
-  border: 1px solid blue;
-  height: 360px;
-  width: 100%;
-  background-color: white;
-}*/
-#content-right img{
+#right-content img {
   height: 100px;
+  width: 100px;
   border-radius: 100%;
   padding-left: 30px;
+}
+#right-content .table {
+  padding-top: 0px;
+  text-align: center;
+}
+#right-content h1 {
+  padding-top: 0px;
+}
+.table table{
+  padding-top: 0px;
+  opacity: 0.9;
+}
+
+table, th, td  {
+  border: 1px solid black;
+  height: 40px;
+  width: 500px;
+  padding: 0px;
+}
+table, th, tr {
+  border: 1px solid black;
+  height: 40px;
+  width: 680px;
+}
+
+footer {
+  /*border: 1px solid red;*/
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  background-image: url('../images/toyota86.jpg');
+  background-size: cover;
+  color: white;
 }
