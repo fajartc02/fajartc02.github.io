@@ -34,7 +34,7 @@ header {
   display: inline;
 }
 
-.judul h1{
+.judul {
   margin-top: 50px;
   text-align: center;
   text-transform: uppercase;
@@ -42,7 +42,7 @@ header {
   box-sizing: border-box;
   height: auto;
   font-size: 50px;
-  margin-top: 0px;
+  margin-top: 20px;
 }
 /*Styling for nav*/
 }
