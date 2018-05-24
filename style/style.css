@@ -16,7 +16,7 @@ section {
 }
 
 #main-content {
-  font-family: monospace;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .pict-fajar {
@@ -43,18 +43,20 @@ section {
 
 .intro-content h2 {
   padding: 15px;
+  text-align: center;
 }
 
 .intro-content p {
-  padding: 40px;
+  padding: 20px;
+  padding-left: 30px;
   text-align: center;
 }
 
 .menu-content li {
   display: inline-block;
   font-size: 20px;
-  padding-left: 70px;
-  padding-top: 10px;
+  padding-left: 50px;
+  padding-top: 15px;
 }
 
 .menu-content a {
