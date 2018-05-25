@@ -4,7 +4,9 @@
 }
 
 body {
-  background-color: aqua;
+  /* background-color: aqua; */
+  background-image: url("../image/office.jpg");
+  background-size: cover;
 }
 
 section {
@@ -12,11 +14,15 @@ section {
   height: 500px;
   width: 700px;
   margin-left: 27%;
-  margin-top: 10%
+  margin-top: 10%;
+  color: aliceblue;
 }
 
 #main-content {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  opacity: 0.95;
+  border-radius: 2%;
 }
 
 .pict-fajar {
@@ -31,6 +37,10 @@ section {
   border: 2px solid black;
   height: 400px ;
   width: 300px;
+  margin-top: 10px;
+  margin-bottom: 18px;
+  opacity: 0.8;
+  border-radius: 10%;
   /* display: inline; */
 }
 
@@ -44,12 +54,15 @@ section {
 .intro-content h2 {
   padding: 15px;
   text-align: center;
+  color: black;
 }
 
 .intro-content p {
   padding: 20px;
   padding-left: 30px;
   text-align: center;
+  color: black;
+  /* color: aliceblue; */
 }
 
 .menu-content li {
@@ -57,6 +70,7 @@ section {
   font-size: 20px;
   padding-left: 50px;
   padding-top: 15px;
+  color: aliceblue;
 }
 
 .menu-content a {
@@ -66,4 +80,8 @@ section {
 
 .menu-content a:hover {
   color: red;
+}
+
+.menu-content img {
+  height: 50px;
 }
