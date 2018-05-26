@@ -3,41 +3,57 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>FajarKerween Hacktiv8 Student</title>
+  <title>Final Project Add Students Hacktiv8</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="style/style.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css"/>
 </head>
 <body>
-  <header></header>
+  <br>
+  <h1 style="color: gainsboro; font-size: 50px; padding: 0px">DATA HACKTIV8 STUDENTS</h1>
+  <br>
+  <table>
+    <tr>
+      <th>NO INDUK</th>
+      <th>NAME STUDENTS</th>
+      <th>ALAMAT</th>
+      <th>BATCH</th>
+      <th>SCORE</th>
+    </tr>
+    <tr class="inputData">
+      <td><input type="text" /></td>
+      <td><input type="text" /></td>
+      <td><input type="text" /></td>
+      <td><input type="text" /></td>
+      <td><input type="text" /></td>
+    </tr>
+  </table>
+  <br>
+  <button id="addList" type="button" onclick="addNewItem()">Add List</button> <button id="clearInput">Clear</button>
   <section>
-    <div id="main-content">
-      <div class="pict-fajar">
-        <img src="image/fajar.png">
-      </div>
-      <div class="intro-content">
-        <h2>Hacktiv8 Student Website</h2>
-        <hr style="background-color: black">
-        <p>
-          Hallo, Perkenalkan nama saya <br><b>Fajar Tri Cahyono</b>
-        </p>
-      <div class="menu-content">
-        <ul>
-          <li><a href="http://foxhub.hacktiv8.co.s3-website-ap-southeast-1.amazonaws.com/scores/me" target="_blank">MY PHASE-0-SCORE</a></li>
-          <li><a href="https://github.com/fajartc02/" target="_blank">MY REPOSITORIES GITHUB</a></li>
-          <li><a href="https://github.com/hacktiv8/phase-0-activities/blob/master/README.md" target="_blank">PHASE-0-ACTIVITY</a></li>
-          <li><a href="#">PHASE-1-ACTIVITY</a></li>
-          <li><a href="#">PHASE-2-ACTIVITY</a></li>
-          <li><a href="#">PHASE-3-ACTIVITY</a></li>
-        </ul>
-        <ul>
-          <li><a href="https://www.facebook.com/fajar.t.cahyono" target="_blank"><img src="image/facebook.png"></a></li>
-          <li><a href="https://www.instagram.com/fajar_tc02/" target="_blank"><img src="image/instagram.png"></a></li>
-          <li><a href="mailto:fajartc02@gmail.com" target="_blank"><img src="image/email.png"></a></li>
-        </ul>
-      </div>
-      </div>
-    </div>
+    <h2>LIST HACKTIV8 STUDENTS</h2>
+    <hr>
+    <br>
+    <table>
+      <tr>
+        <th>NO INDUK</th>
+        <th>NAME STUDENTS</th>
+        <th>ALAMAT</th>
+        <th>BATCH</th>
+        <th>SCORE</th>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table> 
+    <button id="deletedList">Delete</button>
+    <script src="script/script.js"></script>
   </section>
-
+  <h1 style="color: aqua">Let's We Try Play Game Click (Coming Soon)</h1><hr>
+  <h2 style="color: white">TEAM A</h2> 
+  <h2 style="color: violet">TEAM B</h2>
 </body>
 </html>
