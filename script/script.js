@@ -59,10 +59,10 @@ function trialAdd() {
   console.log(document.getElementsByTagName('table'))
 }
 var insideTableTag = document.getElementsByTagName('section')
-function delList () {
-  // insideTableTag.removeChild('tr');
-  // document.getElementsByTagName('table').removeChild('td')
-}
+// function delList () {
+//   // insideTableTag.removeChild('tr');
+//   // document.getElementsByTagName('table').removeChild('td')
+// }
 
 
 var btnAddList = document.getElementById('addList');
