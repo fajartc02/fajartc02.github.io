@@ -72,7 +72,7 @@ var btnClear = document.getElementById('clearInput')
 btnClear.onclick = clearInput
 
 var btnDelete = document.getElementById('deletedList');
-btnDelete.onclick = delList(document.getElementsByTagName('tr'))
+btnDelete.onclick = delList
 
 var dataTd = document.getElementsByTagName('table')
 // console.log(document.getElementsByTagName('input')[3].value)
