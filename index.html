@@ -7,6 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="style/style.css">
+  <marquee height="30" direction="right" behavior="alternate">REPORT ACKTIVITY FAJAR TRI CAHYONO AT HACKTIV8 STUDENT</marquee>
 </head>
 <body>
   <header></header>
@@ -39,9 +40,12 @@
       </div>
     </div>
   </section>
-  <canvas id="ruang" width="500" height="500"></canvas>
-
-
+  <h1>SNAKES AND LADDER</h1>
+  <hr>
+  <br>
+  <content>
+  <canvas id="ruang" width="500" height="500">ENJOY YOUR GAME</canvas>
+  </content>
   <script type="text/javascript">
       $(document).ready(function() {
 
@@ -151,9 +155,9 @@
       }
 
       function paint_cell(x, y) {
-          ctx.fillStyle = "#1abc9c";
+          ctx.fillStyle = "black";
           ctx.fillRect(x * cw, y * cw, cw, cw);
-          ctx.strokeStyle = "#ecf0f1";
+          ctx.strokeStyle = "red";
           ctx.strokeRect(x * cw, y * cw, cw, cw);
       }
 

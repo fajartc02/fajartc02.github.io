@@ -85,3 +85,19 @@ section {
 .menu-content img {
   height: 50px;
 }
+
+content {
+  /* border: 2px solid yellow; */
+  padding-left: 500px;
+}
+
+h1 {
+  color: white;
+  border: red;
+  text-align: center;
+}
+
+marquee {
+  color: red;
+  background-color: black;
+}
